@@ -26,7 +26,7 @@ def update(frame_number, rolls, faces, frequencies):
         text = f'{frequency:,}\n{frequency / sum(frequencies):.3%}'
         axes.text(text_x, text_y, text, ha='center', va='bottom')
 
-# read command-line arguments for number of frames and rolls per frame
+#read command-line arguments for number of frames and rolls per frame
 number_of_frames = int(sys.argv[1])  
 rolls_per_frame = int(sys.argv[2])  
 
